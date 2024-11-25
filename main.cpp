@@ -52,7 +52,7 @@ int main() {
 
     int totalQuestions = questions.size() / 6; 
     if (answers.size() != totalQuestions) {
-        cerr << "il numero di risposte non corrisponde alle domande!" << endl;
+        cerr << "Il numero di risposte non corrisponde alle domande!" << endl;
         return 1;
     }
 
@@ -98,8 +98,8 @@ int main() {
         float percentage = (static_cast<float>(score) / attemptedQuestions) * 100;
         string rank = calculateRank(percentage);
         cout << "Hai risposto correttamente a " << score << " domande su " << attemptedQuestions << "." << endl;
-        cout << "La tua percentuale di successo è " << percentage << "%." << endl;
-        cout << "Il tuo rank è: " << rank << "." << endl;
+        cout << "La tua percentuale di successo e' " << percentage << "%." << endl;
+        cout << "Il tuo rank e': " << rank << "." << endl;
     } else {
         cout << "Non hai risposto a nessuna domanda, quindi non hai un rank." << endl;
     }
