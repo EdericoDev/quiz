@@ -75,7 +75,7 @@ int main() {
         attemptedQuestions++;
 
         if (tolower(userAnswer) == answers[questionIndex][0]) {
-            cout << "Bravo! La tua risposta è corretta." << endl;
+            cout << "Bravo! La tua risposta e' corretta." << endl;
             score++;
         } else {
             cout << "Peccato! La risposta corretta era: " << answers[questionIndex] << endl;
