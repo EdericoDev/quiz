@@ -1,0 +1,39 @@
+Q,What is your favorite programming language? [spoiler (Coding)]
+Python
+!C++
+Java
+Ruby
+Assembly
+E,
+
+Q,Name this game character: "It's-a me!" [spoiler (Gaming)]
+Sonic
+Luigi
+Crash
+!Mario
+Pacman
+E,
+
+Q,Which of these is NOT a programming paradigm?
+Object-Oriented
+Functional
+Procedural
+!Mechanical
+Declarative
+E,
+
+Q,What is the best sorting algorithm?
+Bubble Sort
+!Quick Sort
+Merge Sort
+Insertion Sort
+Selection Sort
+E,
+
+Q,Choose the odd one out:
+!MongoDB
+MySQL
+PostgreSQL
+Oracle
+SQLite
+E,
