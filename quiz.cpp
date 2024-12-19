@@ -254,7 +254,7 @@ int main() {
     }
     
     // calcolo percentuale tra domande a cui si è data la risposta corretta e domande a cui si ha effettivamente risposto.
-    float percentage = (static_cast<float>(score) / attemptedQuestions) * 100;
+    float percentage = (score / attemptedQuestions) * 100;
     string rank = calculateRank(percentage);
 
     // stampa risulutato.
